@@ -11,13 +11,16 @@ Voici les règles de base :
 
 * Il est primordial de réaliser les exercices **dans l'ordre**.
 * Tout le monde doit avoir un compte Github
-* Mettez-vous par groupe de 3
+* Mettez-vous par groupe de 3 (vous pouvez être 2, ça marche aussi mais vous aurez plus de boulot)
+
+> Je mettrai souvent ce genre de petits message grisé.
+> Il s'agit souvent d'informations **très importantes**, lisez les donc bien !
 
 ### Exercice 1 : Forkez moi ça !
 
 Le **fork** est une action permettant de copier un dépôt Github entièrement (avec tout son historique) sur son propre compte Github. Ainsi, vous pouvez copier mon dépôt et faire des changements sur la copie sans affecter le mien.
 
-Vous êtes en groupe, il n'y aura donc qu'un seul d'entre-vous qui devra **forker** le dépôt.
+Vous êtes en groupe, il n'y aura donc qu'un seul d'entre vous qui devra **forker** le dépôt.
 Décidez entre vous qui ce sera, mais ça n'aura pas d'importance pour la suite.
 
 Le premier exercice consiste donc à **forker** mon dépôt sur l'un des votre, peu importe lequel.
@@ -41,7 +44,7 @@ Noms des étudiants :
 Date du jour : 00/00/0000
 
 Tout est ok ? 
-Faites donc un **commit** et **pushez** moi tout ça sur master (sur **votre** dépôt donc, puisque vous l'avez forker).
+Faites donc un **commit** et **pushez** moi tout ça sur master (sur **votre** dépôt donc, puisque vous l'avez forké).
 
 > N'importe lequel des collaborateurs peut pusher !
 
@@ -57,7 +60,9 @@ selon l'ordre dans lequel vous avez mis vos noms dans la présentation.
 >(Si vous n'êtes pas un groupe de 3 mais inférieur,  la logique est la même mais l'un d'entre vous fera les tâches des manquants :) )
 
 
-Il est attendu de tous les collaborateurs de respecter les bonnes pratiques Git et de séparer au mieux leur travail en de multiples petits commits **pertinents** **La note prendra compte de cela** !
+Il est attendu de tous les collaborateurs de respecter les bonnes pratiques Git et de séparer au mieux leur travail en de multiples petits commits **pertinents** !
+
+**La note prendra compte de cela** !
 
 Toutes les missions peuvent être évidemment réalisées en parallèle par les collaborateurs.
 
@@ -68,7 +73,7 @@ Le **collaborateur 1** est missionné par le client pour ajouter un peu de gaït
 Il va devoir effectuer **tout son travail** sur une branche nommée **"feature/collab-1"**.
 
 Le **collaborateur 1** devra : 
-* ajouter un fichier de style CSS **styles.css** et de le lier au fichier **index.html** du projet. (Ce fichier doit donc être **versionné** !)
+* Ajouter un fichier de style CSS **styles.css** et le lier au fichier **index.html** du projet. (Ce fichier doit donc être **versionné** !)
 * Mettre le titre **h1** en rouge
 * Mettre le titre **h2** en vert
 * Mettre une liste numérotée plutôt que par points (**ol** à la place de **ul**)
