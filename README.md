@@ -28,7 +28,7 @@ Le premier exercice consiste donc à **forker** mon dépôt sur l'un des votre, 
 Pour savoir comment forker, lisez ceci : [savoir comment forker](https://github.com/ThomasEcalle/git_tp_final/blob/master/fork.md)
 
 > Pour la suite du TP, vous devrez travailler en équipe sur le dépôt, n'oubliez pas de vous ajouter en tant que collaborateurs !
-> Pour ceux qui ne savent plus comment faire, voici un rappel de la démarche : [ajouter des collaborateurs à mon dépôt github](www.google.com).
+> Pour ceux qui ne savent plus comment faire, voici un rappel de la démarche : [ajouter des collaborateurs à mon dépôt github](https://github.com/ThomasEcalle/git_tp_final/blob/master/add_collaborators.md).
 
 ### Exercice 2 : Présentez-vous !
 
