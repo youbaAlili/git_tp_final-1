@@ -48,7 +48,7 @@ Faites donc un **commit** et **pushez** moi tout ça sur master (sur **votre** d
 
 > N'importe lequel des collaborateurs peut pusher !
 
-### Exercice 4 : Travail d'équipe !
+### Exercice 3 : Travail d'équipe !
 
 Pour cet exercice, je vais appeler les collaborateurs :
 * collaborateur 1
@@ -113,7 +113,7 @@ Le **collaborateur 3** devra :
 
 Une fois que le **collaborateur 3** estime que tout son travail est fini, il peut **push** sa branche sur le dépôt distant.
 
-### Exercice 5 : Fuuuuuuusion !
+### Exercice 4 : Fuuuuuuusion !
 
 Nous approchons de la fin de cet incroyable TP :)
 
@@ -153,11 +153,17 @@ Fusionnez la branche **feature/collab-1** sur la branche **master**.
 > Attention ici, au moment du Merge, a bien garder les modifications apportées par les **collaborateurs 2 et 3** tout en y ajoutant les modifications du **collaborateur 1** !
 
 
-### Conclusion :
+### Fin des exercices :
 
 Tout est ok ?
 Alors n'oubliez pas de **push sur master** le résultat de toutes ces fusions sur votre dépôt distant et ... ce sera tout pour ce TP :)
 
-Le simple **fork** de mon dépôt me permettra d'avoir les vôtre et de pouvoir les consulter, donc vous n'avez plus rien à faire.
+### Comment vais-je corriger ?
 
-**Vérifier tout de même que votre dépôt à vous soit public, que je puisse le consulter !**
+J'ai développé un script qui va me permettre, à la fin du temps imparti, de **cloner** tous vos repository automatiquement sur mon ordinateur, en **local**.
+
+**Il est donc impossible de continuer le travail après le temps imparti** car je n'aurai en local que la version figée au moment du script, et donc sans vos changements d'après ;)
+
+> Attention, pour que mon script récupère vos dépôts, ils doivent être **public** ou alors **privés** mais en m'ayant ajouté comme collaborateur
+
+> Et ce **avant** la fin du TP et donc que je fasse tourner le script
