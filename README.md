@@ -73,7 +73,7 @@ Le **collaborateur 1** est missionné par le client pour ajouter un peu de gaït
 Il va devoir effectuer **tout son travail** sur une branche nommée **"feature/collab-1"**.
 
 Le **collaborateur 1** devra : 
-* Ajouter un fichier de style CSS **styles.css** et le lier au fichier **index.html** du projet. (Ce fichier doit donc être **versionné** !)
+* Ajouter un fichier de style CSS **styles.css** et le lier au fichier **index.html** du projet.
 * Mettre le titre **h1** en rouge
 * Mettre le titre **h2** en vert
 * Mettre une liste numérotée plutôt que par points (**ol** à la place de **ul**)
@@ -103,7 +103,7 @@ Une fois que le **collaborateur 2** estime que tout son travail est fini, il peu
 
 Le **collaborateur 3** est missionné par le client pour corriger des erreurs qui se sont glissées sur le site actuel.
 
-Il va devoir effectuer **tout son travail** sur une branche nommée **"feature/collab-3"**.
+Il va devoir effectuer **tout son travail** sur une branche nommée **"hotfix/collab-3"**.
 
 Le **collaborateur 3** devra : 
 
@@ -122,15 +122,14 @@ A ce stade, vous devriez avoir 4 branches sur votre dépôt :
 * **Master** avec votre commit de présentation
 * **feature/collab-1** avec le travail du collaborateur 1
 * **feature/collab-2** avec le travail du collaborateur 2
-* **feature/collab-3** avec le travail du collaborateur 3
+* **hotfix/collab-3** avec le travail du collaborateur 3
 
 Nous allons désormais fusionner l'ensemble des **features** sur la branche **master**.
 
-Pour ce faire, nous utiliserons **TOUJOURS** la méthode du **Merge non-fast-forward**
-Je veux en effet être capable de voir vos branches et le travail de fusion effectué !
+**ATTENTION !** Je veux être capable de voir vos branches et le travail de fusion effectué !
+Débrouillez-vous donc pour avoir les traces de vos branches et donc des commits de merge quoi qu'il arrive.
 
-> N'oubliez donc pas de **forcer** le *non fast-forward* comme appris dans le cours !
-
+> Nous avons vu dans le cours comment faire ça :)
 
 > N'importe lequel des collaborateurs peut s'occuper des fusions, je pars du principe que les 3 y participent.
 
@@ -138,7 +137,7 @@ Les fusions doivent se faire dans l'ordre suivant :
 
 #### 1ère fusion :
 
-Fusionnez la branche **feature/collab-3** sur la branche **master**.
+Fusionnez la branche **hotfix/collab-3** sur la branche **master**.
 
 #### 2ème fusion :
 
@@ -163,10 +162,6 @@ Alors n'oubliez pas de **push sur master** le résultat de toutes ces fusions su
 J'ai développé un script qui va me permettre, à la fin du temps imparti, de **cloner** tous vos repository automatiquement sur mon ordinateur, en **local**.
 
 **Il est donc impossible de continuer le travail après le temps imparti** car je n'aurai en local que la version figée au moment du script, et donc sans vos changements d'après ;)
-
-> Attention, pour que mon script récupère vos dépôts, ils doivent être **public** ou alors **privés** mais en m'ayant ajouté comme collaborateur
-
-> Et ce **avant** la fin du TP et donc que je fasse tourner le script
 
 ### Notation :
 
